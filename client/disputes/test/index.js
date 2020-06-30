@@ -2,7 +2,7 @@
 /**
  * External dependencies
  */
-import { shallow } from 'enzyme';
+import { render } from '@testing-library/react';
 
 /**
  * Internal dependencies
@@ -64,7 +64,7 @@ describe( 'Disputes list', () => {
 			],
 		};
 
-		const list = shallow(
+		const { container: list } = render(
 			<DisputesList
 				disputes={ disputes }
 				showPlaceholder={ false }
