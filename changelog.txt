@@ -1,5 +1,8 @@
 *** WooCommerce Payments Changelog ***
 
+= 1.2.1 - 2020-xx-xx =
+* Add - Allow merchant to edit statement descriptor
+
 = 1.2.0 - 2020-07-20 =
 * Add - 3DS support when using the pay for order page
 * Add - Display confirmation dialog when enabling manual captures
